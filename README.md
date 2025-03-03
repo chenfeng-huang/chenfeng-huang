@@ -3,7 +3,7 @@
 I was born in Chengdu 🐼, China 🇨🇳, where I lived for 17 years. <br>
 In Fall 2017, I moved to the United States to pursue my studies and have been here since. <br>
 I'm currently a master's student at USC, majoring in Applied Data Science. <br>
-I am researching on **Diffusion Model** and **Time Series Analysis** recently.
+I am researching on **Causal Inference** and **Anomaly Detection** recently.
 
 ## Research Interests
 - Machine Learning
