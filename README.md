@@ -6,8 +6,8 @@ I'm currently a master's student at USC, majoring in Applied Data Science. <br>
 I am researching on **Causal Inference** and **Anomaly Detection** recently.
 
 ## Research Interests
-- Machine Learning
-- Natural Language Processing
+- Interpretable Machine Learning
+  
 
 ## Fun Facts
 I'm also a professional fitness trainer 💪 and coffee enthusiast ☕️. <br>
