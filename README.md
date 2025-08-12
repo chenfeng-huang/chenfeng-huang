@@ -7,6 +7,7 @@ I am researching on **Causal Inference** and **Anomaly Detection** recently.
 
 ## Research Interests
 - Interpretable Machine Learning
+- Sequential Data Analysis
   
 
 ## Fun Facts
