@@ -14,6 +14,6 @@ I'm also a professional fitness trainer and coffee enthusiast. <br>
 I specialize in pour-over techniques and enjoy exploring various coffee bean origins. <br>
 Check out my [Coffee Notes](https://chenfenghuang.info/blog/)
 
-## Contacts
+## Links
 Personal Webpage: https://chenfenghuang.info <br>
 Linkedin: [chenfeng-huang-941737176](https://www.linkedin.com/in/chenfeng-huang-941737176)
