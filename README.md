@@ -18,4 +18,4 @@ Check out my [Coffee Notes](https://chenfenghuang.info/blog/)
 ## Links
 Personal Webpage: https://chenfenghuang.info <br>
 Linkedin: [chenfeng-huang-941737176](https://www.linkedin.com/in/chenfeng-huang-941737176)<br>
-Kaggle: [https://www.kaggle.com](https://www.kaggle.com/alrickh)]
+Kaggle: [https://www.kaggle.com](https://www.kaggle.com/alrickh)
