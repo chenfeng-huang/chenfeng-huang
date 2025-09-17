@@ -11,8 +11,7 @@ I am researching on **Time Series OOD Generalization** recently.
   
 
 ## Fun Facts
-I'm also a professional fitness trainer and coffee enthusiast. <br>
-I specialize in pour-over techniques and enjoy exploring various coffee bean origins. <br>
+I'm also a coffee enthusiast specialize in pour-over techniques and enjoy exploring various coffee bean origins. <br>
 Check out my [Coffee Notes](https://chenfenghuang.info/blog/)
 
 ## Links
