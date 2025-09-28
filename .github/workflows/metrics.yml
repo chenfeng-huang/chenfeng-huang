@@ -1,21 +1,25 @@
 name: Metrics
 on:
-  schedule: # Runs once a day
-    - cron: "0 0 * * *"
-  workflow_dispatch: # Allow manual trigger
+  schedule:
+    - cron: "0 0 * * *"    # daily
+  workflow_dispatch:
+
 permissions:
   contents: write
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - name: Metrics embed
+      - name: Generate metrics
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: chenfenghuang
-          filename: github-metrics.svg
+          token: ${{ secrets.METRICS_TOKEN }}   # repo secret
+          user: chenfeng-huang                  # exact username
           template: classic
+          filename: github-metrics.svg
           base: header, activity, community, repositories, metadata
           config_timezone: America/Los_Angeles
-          committer_branch: main
+          output_action: commit
+          committer_branch: main                # change if your default is "master"
+          committer_message: "chore: update metrics"
