@@ -23,3 +23,5 @@ Kaggle: [alrickh](https://www.kaggle.com/alrickh)
 ![Metrics](github-metrics.svg)
 
 ![Stargazer World Map](metrics.plugin.stargazers.worldmap.svg)
+
+![Traffic](metrics.plugin.traffic.svg)
