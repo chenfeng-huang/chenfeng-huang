@@ -20,4 +20,4 @@ Personal Webpage: https://chenfenghuang.info <br>
 Linkedin: [chenfeng-huang-941737176](https://www.linkedin.com/in/chenfeng-huang-941737176)<br>
 Kaggle: [alrickh](https://www.kaggle.com/alrickh)
 
-![Metrics](./github-metrics.svg)
+![Metrics](github-metrics.svg)
