@@ -1,4 +1,1 @@
-
-
-
-![Traffic](metrics.plugin.traffic.svg)
+![Repositories traffic](metrics.plugin.traffic.svg)
