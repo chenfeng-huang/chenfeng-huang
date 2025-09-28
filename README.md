@@ -21,3 +21,5 @@ Linkedin: [chenfeng-huang-941737176](https://www.linkedin.com/in/chenfeng-huang-
 Kaggle: [alrickh](https://www.kaggle.com/alrickh)
 
 ![Metrics](github-metrics.svg)
+
+![Stargazer World Map](metrics.plugin.stargazers.worldmap.svg)
