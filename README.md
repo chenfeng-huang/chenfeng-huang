@@ -1,1 +1,1 @@
-![Repositories traffic](metrics.plugin.traffic.svg)
+![Classic Metrics](github-metrics.svg)
