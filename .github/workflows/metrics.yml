@@ -23,3 +23,11 @@ jobs:
           output_action: commit
           committer_branch: main                # change if your default is "master"
           committer_message: "chore: update metrics"
+
+
+
+          # plugins
+          plugin_stargazers: yes
+          plugin_stargazers_worldmap: yes
+          plugin_stargazers_worldmap_samples: 200   # max users to sample (optional)
+          plugin_stargazers_worldmap_token: ${{ secrets.METRICS_TOKEN }}
