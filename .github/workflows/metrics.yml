@@ -23,3 +23,12 @@ jobs:
           output_action: commit
           committer_branch: main
           committer_message: "chore: update classic metrics"
+            # Introduction plugin
+
+          plugin_introduction: yes
+          plugin_introduction_title: yes
+          plugin_introduction_about: |
+            Hi there, my name is Chenfeng Huang.  
+            I was born in Chengdu, China 🇨🇳 and now study Applied Data Science at USC.  
+            I enjoy coffee brewing and research on Time Series OOD Generalization.  
+            I am also actively joining Kaggle competitions at Expert level.
