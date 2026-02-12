@@ -18,9 +18,9 @@ jobs:
       - name: Generate trophy card
         uses: soulteary/github-profile-trophy-action@v1.0.0
         with:
-          options: 'username=${{ github.repository_owner }}&theme=gruvbox&column=7&margin-w=15&margin-h=15'
+          options: 'username=${{ github.repository_owner }}&theme=gruvbox&column=7&margin-w=15&margin-h=15&rank=-C,-B,-UNKNOWN'
           path: profile/trophy.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
 
       - name: Commit trophy card
         run: |
