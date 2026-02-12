@@ -1,25 +1,31 @@
-name: Metrics
+name: Update README trophy
+
 on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
-  github-metrics:
+  build:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
     steps:
-      - name: Classic metrics (built-in About me)
-        uses: lowlighter/metrics@latest
+      - uses: actions/checkout@v4
+
+      - name: Generate trophy card
+        uses: soulteary/github-profile-trophy-action@v1.0.0
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: chenfeng-huang
-          template: classic
-          filename: github-metrics.svg
-          base: header, activity, community, repositories, metadata
-          config_timezone: America/Los_Angeles
-          output_action: commit
-          committer_branch: main
-          committer_message: "chore: update classic metrics"
+          options: 'username=${{ github.repository_owner }}&theme=gruvbox&column=7&margin-w=15&margin-h=15'
+          path: profile/trophy.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit trophy card
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/trophy.svg
+          git commit -m "Update README trophy" || exit 0
+          git push
